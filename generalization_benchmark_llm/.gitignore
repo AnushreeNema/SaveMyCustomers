@@ -1,0 +1,35 @@
+
+# API credentials and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# API predictions and temporary outputs
+outputs/
+logs/
+*.log
+
+# Local test files
+scratch/
+temp/
+tmp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
