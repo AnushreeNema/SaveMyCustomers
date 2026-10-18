@@ -1,0 +1,47 @@
+{
+  "model": "jev-latest",
+  "split": "dev",
+  "threshold": 0.5,
+  "events_completed": 690,
+  "total_events": 690,
+  "next_event_index": 690,
+  "requests_completed": 690,
+  "total_api_latency_seconds": 279.75688955630176,
+  "average_latency_ms_per_event": 405.4447674729011,
+  "median_latency_ms": 358.7078335112892,
+  "p95_latency_ms": 662.2670872544402,
+  "p99_latency_ms": 1382.0147911820097,
+  "total_input_tokens_known": 611270,
+  "events_with_known_input_tokens": 689,
+  "known_cost_subtotal_usd": 0.025673340000000006,
+  "total_estimated_api_cost_usd": null,
+  "estimated_cost_per_1000_events_usd": null,
+  "meaningful_change": {
+    "accuracy": 0.6956521739130435,
+    "precision": 0.6943462897526502,
+    "recall": 0.913953488372093,
+    "f1": 0.7891566265060241,
+    "TP": 393,
+    "FP": 173,
+    "FN": 37,
+    "TN": 87,
+    "false_positive_rate": 0.6653846153846154
+  },
+  "escalation_needed": {
+    "accuracy": 0.8492753623188406,
+    "precision": 0.855072463768116,
+    "recall": 0.8452722063037249,
+    "f1": 0.8501440922190201,
+    "TP": 295,
+    "FP": 50,
+    "FN": 54,
+    "TN": 291,
+    "false_positive_rate": 0.1466275659824047
+  },
+  "direction_accuracy": 0.8217391304347826,
+  "pricing": {
+    "input_usd_per_million": 0.042,
+    "output_usd_per_million": 0.0,
+    "source": "User-provided, not independently verified"
+  }
+}

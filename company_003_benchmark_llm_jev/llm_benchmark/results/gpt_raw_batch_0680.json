@@ -1,0 +1,7 @@
+{
+  "response_id": "resp_04cf67b9526bee48006ad40f12815487d0b17e10ae25e80c3f",
+  "output_text": "{\"predictions\":[{\"event_index\":680,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":681,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":682,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":683,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":true},{\"event_index\":684,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":685,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":true},{\"event_index\":686,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":687,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":688,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":689,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false}]}",
+  "input_tokens": 4798,
+  "output_tokens": 236,
+  "latency_seconds": 1.87410112505313
+}

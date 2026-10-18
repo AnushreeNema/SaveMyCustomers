@@ -1,0 +1,55 @@
+{
+  "benchmark_version": "v3_candidate",
+  "company_id": "company-003",
+  "task": "Customer relationship change detection and escalation",
+  "scenario_families": 42,
+  "communication_families": 36,
+  "financial_families": 6,
+  "splits": {
+    "train": {
+      "examples": 7764,
+      "customers": 69,
+      "meaningful_labels": {
+        "True": 4917,
+        "False": 2847
+      },
+      "escalation_labels": {
+        "True": 4037,
+        "False": 3727
+      }
+    },
+    "dev": {
+      "examples": 690,
+      "customers": 17,
+      "meaningful_labels": {
+        "True": 430,
+        "False": 260
+      },
+      "escalation_labels": {
+        "True": 349,
+        "False": 341
+      }
+    },
+    "test": {
+      "examples": 570,
+      "customers": 14,
+      "meaningful_labels": {
+        "True": 355,
+        "False": 215
+      },
+      "escalation_labels": {
+        "True": 288,
+        "False": 282
+      }
+    }
+  },
+  "limitations": [
+    "Synthetic scenario labels, not independently observed outcomes.",
+    "Customer-disjoint splits, but examples within each customer are correlated.",
+    "Communication scenario families are shared across splits.",
+    "Only 180 distinct communication message texts across the full dataset.",
+    "Financial observations describe simulated reporting periods.",
+    "Financial scenario thresholds are provisional, not empirically calibrated.",
+    "This dataset does not establish real-world churn prediction accuracy."
+  ]
+}

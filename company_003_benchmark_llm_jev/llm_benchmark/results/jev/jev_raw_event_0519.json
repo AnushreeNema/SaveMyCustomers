@@ -1,0 +1,18 @@
+{
+  "prediction": {
+    "event_index": 519,
+    "meaningful_change": true,
+    "direction": "negative",
+    "escalation_needed": true,
+    "meaningful_score": 0.76,
+    "escalation_score": 0.63
+  },
+  "request": {
+    "event_index": 519,
+    "model": "jev-latest",
+    "latency_ms": 443.39016696903855,
+    "input_tokens": 872,
+    "output_tokens": 87,
+    "estimated_cost_usd": 3.6624e-05
+  }
+}

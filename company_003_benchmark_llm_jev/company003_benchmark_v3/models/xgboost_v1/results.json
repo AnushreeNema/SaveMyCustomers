@@ -1,0 +1,81 @@
+{
+  "detector": "xgboost_v1",
+  "dataset": "company003_benchmark_v3",
+  "evaluation_split": "dev",
+  "train_examples": 7764,
+  "dev_examples": 690,
+  "test_examples_evaluated": 0,
+  "feature_count": 1434,
+  "meaningful_change": {
+    "accuracy": 0.7028985507246377,
+    "precision": 0.7848101265822784,
+    "recall": 0.7209302325581395,
+    "f1": 0.7515151515151515,
+    "TP": 310,
+    "FP": 85,
+    "FN": 120,
+    "TN": 175,
+    "false_positive_rate": 0.3269230769230769
+  },
+  "escalation_needed": {
+    "accuracy": 0.6289855072463768,
+    "precision": 0.7384615384615385,
+    "recall": 0.41260744985673353,
+    "f1": 0.5294117647058824,
+    "TP": 144,
+    "FP": 51,
+    "FN": 205,
+    "TN": 290,
+    "false_positive_rate": 0.1495601173020528
+  },
+  "direction_accuracy": 0.6043478260869565,
+  "training_seconds": 1.0342537089018151,
+  "latency": {
+    "calls": 2070,
+    "mean_ms": 0.49744351884057963,
+    "median_ms": 0.47125,
+    "p95_ms": 0.67647515,
+    "p99_ms": 0.8224522899999999,
+    "throughput_per_second": 2010.2784781089476
+  },
+  "rules_v1_latency": {
+    "calls": 2070,
+    "mean_ms": 0.009529856038647342,
+    "median_ms": 0.011375,
+    "p95_ms": 0.0145,
+    "p99_ms": 0.016334,
+    "throughput_per_second": 104933.37947022534
+  },
+  "direction_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "model_parameters": {
+    "n_estimators": 250,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "n_jobs": 4,
+    "random_state": 42
+  },
+  "environment": {
+    "python": "3.14.0",
+    "machine": "arm64",
+    "xgboost": "3.2.0",
+    "sklearn": "1.8.0"
+  },
+  "saved_at_utc": "2026-10-17T23:15:43.463885+00:00",
+  "limitations": [
+    "Synthetic scenario labels, not real-world outcomes",
+    "Customer-disjoint split but repeated scenario families",
+    "Held-out message phrasings are semantically related to training phrasings",
+    "Development scores are not independent production estimates",
+    "Latency measured on local CPU, serial single-event inference",
+    "Training time excludes dataset loading and feature preparation"
+  ]
+}

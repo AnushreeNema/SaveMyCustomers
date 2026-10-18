@@ -1,0 +1,35 @@
+{
+  "model": "gpt-5.4-mini",
+  "split": "dev",
+  "events_completed": 690,
+  "total_events": 690,
+  "next_event_index": 690,
+  "requests_completed": 35,
+  "total_api_latency_seconds": 110.23713412496727,
+  "amortized_latency_ms_per_event": 159.76396249995256,
+  "total_estimated_api_cost_usd": 0.27852825000000003,
+  "estimated_cost_per_1000_events_usd": 0.4036641304347826,
+  "meaningful_change": {
+    "accuracy": 0.863768115942029,
+    "precision": 0.8307086614173228,
+    "recall": 0.9813953488372092,
+    "f1": 0.8997867803837953,
+    "TP": 422,
+    "FP": 86,
+    "FN": 8,
+    "TN": 174,
+    "false_positive_rate": 0.33076923076923076
+  },
+  "escalation_needed": {
+    "accuracy": 0.8768115942028986,
+    "precision": 0.8235294117647058,
+    "recall": 0.9627507163323782,
+    "f1": 0.8877146631439894,
+    "TP": 336,
+    "FP": 72,
+    "FN": 13,
+    "TN": 269,
+    "false_positive_rate": 0.21114369501466276
+  },
+  "direction_accuracy": 0.836231884057971
+}
