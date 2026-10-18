@@ -48,4 +48,4 @@ htmlcov/
 *.db-journal
 
 # Keep local data private
-data/
+/data/

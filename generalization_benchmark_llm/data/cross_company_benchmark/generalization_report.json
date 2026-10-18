@@ -1,0 +1,15 @@
+{
+  "model": "Frozen XGBoost baseline",
+  "training_company": "Company 003",
+  "heldout_companies": 39,
+  "eligible_customers": 1445,
+  "controlled_scenario_examples": 8670,
+  "controlled_meaningful_f1": 1.0,
+  "controlled_escalation_f1": 1.0,
+  "controlled_direction_accuracy": 1.0,
+  "unseen_percentage_examples": 24565,
+  "unseen_percentage_levels": 17,
+  "stress_test_has_ground_truth": false,
+  "known_limitation": "At exactly 0% revenue change, the original sparse pipeline predicts meaningful change, escalation, and negative direction for all tested customers.",
+  "scope": "Controlled synthetic financial scenarios grounded in held-out company accounting histories; not evidence of real-world outcome accuracy or Jev/System One cross-company performance."
+}

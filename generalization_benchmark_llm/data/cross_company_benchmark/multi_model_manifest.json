@@ -1,0 +1,19 @@
+{
+  "name": "Cross-company multi-model financial evaluation",
+  "source_training_company": "company-003",
+  "heldout_companies": 39,
+  "customers": 308,
+  "examples": 1540,
+  "revenue_change_percentages": [
+    -65,
+    -35,
+    -15,
+    0,
+    75
+  ],
+  "random_seed": 42,
+  "customers_per_company_max": 10,
+  "inputs_sha256": "313cb7bc119271f6a8626aacc4af70a263df5876c6b034bfdcf91452fad335db",
+  "ground_truth_labels": "not yet established",
+  "evaluation_scope": "Controlled hypothetical financial trends based on held-out company accounting histories"
+}

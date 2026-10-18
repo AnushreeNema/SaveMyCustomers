@@ -1,0 +1,4 @@
+metric,companies,mean,std,minimum,median,maximum
+meaningful_f1,39,1.0,0.0,1.0,1.0,1.0
+escalation_f1,39,1.0,0.0,1.0,1.0,1.0
+direction_accuracy,39,1.0,0.0,1.0,1.0,1.0
