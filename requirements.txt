@@ -1,0 +1,13 @@
+# Dashboard
+streamlit
+pandas
+plotly
+
+# AI integrations
+openai
+python-dotenv
+
+# YAML dataset loading
+PyYAML
+
+# Jev AI integration

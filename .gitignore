@@ -1,0 +1,51 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Generated application state
+data/*.jsonl
+data/*.log
+logs/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+
+# SQLite temporary and journal files
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+*.sqlite-journal
+*.db-journal
+
+# Keep local data private
+data/
