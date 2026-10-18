@@ -1,0 +1,11 @@
+{
+  "model": "jev-latest",
+  "completed": 1272,
+  "total": 1272,
+  "remaining": 0,
+  "average_latency_ms": 425.451686064187,
+  "total_latency_seconds": 541.1745446736459,
+  "known_cost_subtotal_usd": 0.052284539999999956,
+  "cost_estimate_complete": true,
+  "estimated_total_cost_usd": 0.052284539999999956
+}

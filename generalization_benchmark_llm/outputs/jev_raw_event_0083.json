@@ -1,0 +1,21 @@
+{
+  "prediction": {
+    "event_index": 83,
+    "example_id": "company-002-c40-p0",
+    "model": "jev-latest",
+    "meaningful_change": false,
+    "direction": "neutral",
+    "escalation_needed": false,
+    "meaningful_score": 0.14,
+    "escalation_score": 0.11
+  },
+  "request": {
+    "event_index": 83,
+    "example_id": "company-002-c40-p0",
+    "model": "jev-latest",
+    "latency_ms": 562.0952500030398,
+    "input_tokens": 1004,
+    "output_tokens": 87,
+    "estimated_cost_usd": 4.2168e-05
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "response_id": "resp_0d6fd092fadb98d5006ad48daabd3887d0a30e0a7d97987f7f",
+  "model": "gpt-5.4-mini",
+  "start_index": 340,
+  "end_index": 360,
+  "output_text": "{\"predictions\":[{\"event_index\":340,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":341,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":342,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":343,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":344,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":345,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":346,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":true},{\"event_index\":347,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":348,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":349,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":350,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":351,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":352,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":353,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":354,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":355,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":356,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":357,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":358,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":359,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false}]}",
+  "input_tokens": 9508,
+  "cached_input_tokens": 0,
+  "output_tokens": 456,
+  "latency_seconds": 2.406442750012502
+}

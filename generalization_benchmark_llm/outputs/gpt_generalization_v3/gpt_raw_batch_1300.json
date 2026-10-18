@@ -1,0 +1,11 @@
+{
+  "response_id": "resp_09147812737fc6a5006ad48f3277ec87d0b227a92bd3815382",
+  "model": "gpt-5.4-mini",
+  "start_index": 1300,
+  "end_index": 1302,
+  "output_text": "{\"predictions\":[{\"event_index\":1300,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":1301,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true}]}",
+  "input_tokens": 1174,
+  "cached_input_tokens": 0,
+  "output_tokens": 62,
+  "latency_seconds": 1.6561996249947697
+}

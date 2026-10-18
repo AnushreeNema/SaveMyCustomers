@@ -1,0 +1,38 @@
+{
+  "model": "gpt-5.4-mini",
+  "benchmark": "cross_company_multi_signal_v3",
+  "examples_completed": 1302,
+  "total_examples": 1302,
+  "requests_completed": 66,
+  "batch_size": 20,
+  "total_api_latency_seconds": 158.15135666774586,
+  "amortized_latency_ms_per_event": 121.46801587384475,
+  "total_estimated_api_cost_usd": 0.594834,
+  "estimated_cost_per_1000_events_usd": 0.45686175115207367,
+  "total_input_tokens": 613100,
+  "total_cached_input_tokens": 0,
+  "total_output_tokens": 30002,
+  "meaningful_change": {
+    "accuracy": 0.9915514592933948,
+    "precision": 1.0,
+    "recall": 0.9898617511520738,
+    "f1": 0.9949050486336267,
+    "TP": 1074,
+    "FP": 0,
+    "FN": 11,
+    "TN": 217,
+    "false_positive_rate": 0.0
+  },
+  "escalation_needed": {
+    "accuracy": 0.5937019969278033,
+    "precision": 0.4432497013142174,
+    "recall": 0.8548387096774194,
+    "f1": 0.5837922895357985,
+    "TP": 371,
+    "FP": 466,
+    "FN": 63,
+    "TN": 402,
+    "false_positive_rate": 0.5368663594470046
+  },
+  "direction_accuracy": 0.8225806451612904
+}

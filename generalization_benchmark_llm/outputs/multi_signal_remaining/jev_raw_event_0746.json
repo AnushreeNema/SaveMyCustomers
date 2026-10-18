@@ -1,0 +1,21 @@
+{
+  "prediction": {
+    "event_index": 746,
+    "example_id": "multi_signal::company-016::9::C_payment_warning",
+    "model": "jev-latest",
+    "meaningful_change": false,
+    "direction": "neutral",
+    "escalation_needed": false,
+    "meaningful_score": 0.14,
+    "escalation_score": 0.16
+  },
+  "request": {
+    "event_index": 746,
+    "example_id": "multi_signal::company-016::9::C_payment_warning",
+    "model": "jev-latest",
+    "latency_ms": 296.99837509542704,
+    "input_tokens": 980,
+    "output_tokens": 87,
+    "estimated_cost_usd": 4.1160000000000006e-05
+  }
+}

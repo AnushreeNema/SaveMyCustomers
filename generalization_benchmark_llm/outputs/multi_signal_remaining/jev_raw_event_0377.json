@@ -1,0 +1,21 @@
+{
+  "prediction": {
+    "event_index": 377,
+    "example_id": "multi_signal::company-009::50::F_conflicting_signals",
+    "model": "jev-latest",
+    "meaningful_change": false,
+    "direction": "positive",
+    "escalation_needed": true,
+    "meaningful_score": 0.47,
+    "escalation_score": 0.51
+  },
+  "request": {
+    "event_index": 377,
+    "example_id": "multi_signal::company-009::50::F_conflicting_signals",
+    "model": "jev-latest",
+    "latency_ms": 314.3274170579389,
+    "input_tokens": 989,
+    "output_tokens": 87,
+    "estimated_cost_usd": 4.1538e-05
+  }
+}

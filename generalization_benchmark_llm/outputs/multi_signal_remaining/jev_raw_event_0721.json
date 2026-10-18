@@ -1,0 +1,21 @@
+{
+  "prediction": {
+    "event_index": 721,
+    "example_id": "multi_signal::company-015::81::B_purchasing_slowdown",
+    "model": "jev-latest",
+    "meaningful_change": true,
+    "direction": "negative",
+    "escalation_needed": true,
+    "meaningful_score": 0.58,
+    "escalation_score": 0.58
+  },
+  "request": {
+    "event_index": 721,
+    "example_id": "multi_signal::company-015::81::B_purchasing_slowdown",
+    "model": "jev-latest",
+    "latency_ms": 499.6683750068769,
+    "input_tokens": 982,
+    "output_tokens": 87,
+    "estimated_cost_usd": 4.1244e-05
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "response_id": "resp_0ee2d24ae145adfd006ad48d5082b087d088d09f803108cdc8",
+  "model": "gpt-5.4-mini",
+  "start_index": 60,
+  "end_index": 80,
+  "output_text": "{\"predictions\":[{\"event_index\":60,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":61,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false},{\"event_index\":62,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false},{\"event_index\":63,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false},{\"event_index\":64,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":65,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":66,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":67,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false},{\"event_index\":68,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false},{\"event_index\":69,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false},{\"event_index\":70,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":71,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":false},{\"event_index\":72,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":true},{\"event_index\":73,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":74,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":75,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":true},{\"event_index\":76,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":true},{\"event_index\":77,\"meaningful_change\":true,\"direction\":\"positive\",\"escalation_needed\":true},{\"event_index\":78,\"meaningful_change\":false,\"direction\":\"neutral\",\"escalation_needed\":false},{\"event_index\":79,\"meaningful_change\":true,\"direction\":\"negative\",\"escalation_needed\":false}]}",
+  "input_tokens": 9391,
+  "cached_input_tokens": 0,
+  "output_tokens": 456,
+  "latency_seconds": 2.495572166983038
+}

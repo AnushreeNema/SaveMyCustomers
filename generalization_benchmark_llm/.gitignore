@@ -18,7 +18,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # API predictions and temporary outputs
-outputs/
 logs/
 *.log
 
